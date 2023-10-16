@@ -1,9 +1,9 @@
 telegram:
-  api_id: 1234 # api id and hash which you got from telegram when registering a new app (https://my.telegram.org/apps)
-  api_hash: ""
+  api_id: 29515631 # api id and hash which you got from telegram when registering a new app (https://my.telegram.org/apps)
+  api_hash: "cb5ed0d5699502d66f0218f7240fd540"
 bot:
   chat_ids: # telegram chat ids of the chats in which deleted accounts should be kicked. Use the string format, no numbers
-    - "1234"
+    - "1586350860"
     - "5678"
   sleep_per_chat: 10 # time in seconds to sleep after each chat
   sleep_after_kick: 20 # time in seconds to sleep after each kick
